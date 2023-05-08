@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo integrador CaC FSJava2023</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/efb6d73ed1.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+                                               <!--Barra de navegación-->
+  <header>                                           
+    <nav class="py-md-2 navbar navbar-expand-md bg ">
+      <div class="container">
+        <label for="#" class="navbar-brand">
+          <img src="./img/CaC1.png" alt="Logo Codo a Codo" width="100px" height="75px">
+        </label>
+        <a href="" class="navbar-brand mx-4 text-white">Conf Bs As</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collaps" data-bs-target="#btn">
+            <i class="fa-solid fa-bars"></i></button>
+
+        <div class="collaps navbar-collapse" id="btn">
+          <ul class="navbar-nav ms-auto"> <!--expande los items y coloca nombre o logo a la izquierda y los items a  la derecha-->
+            <li class="nav-item">
+              <a href="#laConferencia" class="nav-link mx-2 text-white">La conferencia</a></li>
+            <li class="nav-item">
+              <a href="#losOradores" class="nav-link mx-2 text-white">Los oradores</a></li>
+            <li class="nav-item">
+              <a href="#lugarYfecha" class="nav-link mx-2 text-white">El lugar y la fecha</a></li>
+            <li class="nav-item">
+              <a href="#conviertEnOrador" class="nav-link mx-2 text-white">Conviértete en orador</a></li>
+            <li class="nav-item">
+              <a href="#laConferencia" class="nav-link mx-2 text-white-50">Compra tickets</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+                                   <!-- imágen del antiguo depósito de agua de BA -->
+ 
+  <div id="laConferencia" class="container_cards">
+  <div class="card text-bg-dark">
+    <img src="./img/45.jpg" class="card-img-fluid" alt="depósito de agua de BA">
+  <div class="card-img-overlay">
+    <h3 class="card-title text-white text-end">Conf Bs As</h3>
+    <p class="card-text text-white text-end">Bs As llega por primera veza Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+    <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
+    <a href="#" class="btn btn-success">Comprar tickets</a>
+  </div>
+</div>
+</div>
+
+                                             <!--Conoce a los Oradores-->
+
+    <div id="losOradores" class="text-oradores">
+      <p class="text-center">Conoce a los</p>
+      <p class="text-center fs-1">ORADORES</p>
+    </div>
+                                                       <!--cards-->
+      
+    <div class="container_cards align-center">
+
+    <div class="card-group mb-lg-4 py-1" style="width: 48rem;">
+    <div class="card m-lg-3">
+      <img src="./img/steve.jpg" class="card-img-top" alt="imágen de Steve Jobs">
+      <div class="card-body">
+    <div class="boton-react">
+        <button type="button" class="btn btn-primary btn-sm">Javascript</button>
+        <button type="button" class="btn btn-secondary btn-sm">React</button>
+      </div>
+      <h5 class="card-title">Steve Jobs</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+
+    <div class="card m-lg-3">
+      <img src="./img/bill.jpg" class="card-img-top" alt="imágen de Bill Gate">
+      <div class="card-body">
+        <div class="boton-react">
+          <button type="button" class="btn btn-primary btn-sm">Javascript</button>
+          <button type="button" class="btn btn-secondary btn-sm">React</button>
+        </div>
+        <h5 class="card-title">Bill Gate</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+
+    <div class="card m-lg-3 ">
+      <img src="./img/ada.jpeg" class="card-img-top" alt="imágen de Ada Lovelace">
+      <div class="card-body">
+        <div class="boton-react">
+          <button type="button" class="btn btn-primary btn-sm">Negocios</button>
+          <button type="button" class="btn btn-secondary btn-sm">Startup</button>
+        </div>
+        <h5 class="card-title">Ada Lovelace</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+    <main id="lugarYfecha">
+        <section id="honolulu">
+          <div class="container-fluid col"></div>
+              <div class="row">
+                <div class="col img-col" >
+                <img src="./img/honolulu.jpg" alt="Honolulu" class="img-fluid">
+              </div>
+
+              <div class="col my-0 bg-dark">
+                <h2>Bs As - Octubre</h2>
+                <p class="color text-white">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos, Honolulú es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulú se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulú han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de superficie)</p>
+                <div class="boton-conoce">
+                  <button type="button" class="btn btn-light btn-sm">Conocé más</button>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </section>
+    </main>
+    
+                                                     <!--Formulario (conviertete en orador)-->
+  <div id="conviertEnOrador" class="container_form"> 
+    <div class="w-60 border m-1 p-1">
+    <div class="text-form">
+      <p class="text-center">CONVIÉRTETE EN UN</p>
+      <p class="text-center fs-3">ORADOR</p>
+      <p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quiéres hablar!</p>
+      
+      <form class="row g-2 mt-2">
+        <div class="col-6">
+          <input type="text" class="form-control" id="" placeholder="nombre">
+        </div>
+
+        <div class="col-6">
+          <input type="text" class="form-control" id="" placeholder="apellido">
+        </div>
+
+        <div class="col-12">
+          <textarea class="form-control" id="" placeholder="¿Sobre qué quiéres hablar?"></textarea>
+          <p>Recuerda incluir un título para tu charla.</p>
+
+          <div class="d-grid">
+            <button type="submit" class="btn btn-success">Enviar</button>
+          </div> 
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+  
+      <nav class="py-md-2 navbar navbar-expand-md bg-secondary ">
+        <div class="container">
+            <div class="collaps navbar-collapse" id="btn">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link mx-2 text-white">Preguntas frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link mx-2 text-white">Contáctanos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link mx-2 text-white">Prensa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link mx-2 text-white">Conferencias</a>
+                  </l>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link mx-2 text-white">Términos y condiciones </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link mx-2 text-white">Privacidad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link mx-2 text-white">Estudiantes</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+  </body>
+</html>
