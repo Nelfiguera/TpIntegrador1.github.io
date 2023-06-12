@@ -4,64 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo integrador CaC FSJava2023</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Trabajo integrador Frontend Codo a Codo 2023</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="./css/estilos.css">
     <script src="https://kit.fontawesome.com/efb6d73ed1.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
-                                               <!--Barra de navegación-->
-  <header>                                           
-    <nav class="py-md-2 navbar navbar-expand-md bg ">
-      <div class="container">
-        <label for="#" class="navbar-brand">
-          <img src="./img/CaC1.png" alt="Logo Codo a Codo" width="100px" height="75px">
-        </label>
-        <a href="" class="navbar-brand mx-4 text-white">Conf Bs As</a>
+                                     <!--Barra de navegación-->
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collaps" data-bs-target="#btn">
-            <i class="fa-solid fa-bars"></i></button>
-
-        <div class="collaps navbar-collapse" id="btn">
-          <ul class="navbar-nav ms-auto"> <!--expande los items y coloca nombre o logo a la izquierda y los items a  la derecha-->
-            <li class="nav-item">
-              <a href="#laConferencia" class="nav-link mx-2 text-white">La conferencia</a></li>
-            <li class="nav-item">
-              <a href="#losOradores" class="nav-link mx-2 text-white">Los oradores</a></li>
-            <li class="nav-item">
-              <a href="#lugarYfecha" class="nav-link mx-2 text-white">El lugar y la fecha</a></li>
-            <li class="nav-item">
-              <a href="#conviertEnOrador" class="nav-link mx-2 text-white">Conviértete en orador</a></li>
-            <li class="nav-item">
-              <a href="#laConferencia" class="nav-link mx-2 text-white-50">Compra tickets</a></li>
-          </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-lg">
+            <span><a href="#" target="_blank"><img src="./img/codoacodo.png" alt="Logo codo a codo"></a></span>
+              <h1 class="navbar-brand-h1 me-auto">Conf Bs As</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"   data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" href="#" aria-current="page" href="#">La conferencia</a>
+              <a class="nav-link" href="#oradores">Los oradores</a>
+              <a class="nav-link" href="#">El lugar y la fecha</a>
+              <a class="nav-link" href="#orador">Conviértete en orador</a>
+              <a class="nav-link" href="#tickets">Comprar tickets</a>
+          </div>
         </div>
       </div>
     </nav>
-  </header>
 
-                                   <!-- imágen del antiguo depósito de agua de BA -->
+                  <!-- imágen del antiguo depósito de agua de BA -->
  
-  <div id="laConferencia" class="container_cards">
-  <div class="card text-bg-dark">
-    <img src="./img/45.jpg" class="card-img-fluid" alt="depósito de agua de BA">
-  <div class="card-img-overlay">
-    <h3 class="card-title text-white text-end">Conf Bs As</h3>
-    <p class="card-text text-white text-end">Bs As llega por primera veza Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-    <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-    <a href="#" class="btn btn-success">Comprar tickets</a>
-  </div>
-</div>
-</div>
+      <section id="tickets" class="showcase">
+        <div class="shadow">
+            <div class="container-flex">
+                <div class="content">
+                    <h1>Conf Bs As</h1>
+                    <p>Bs As llega por primera vez a Argentina. Un evento para compratir con nuestra comunidad el
+                        conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a
+                        conocer a
+                        miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que
+                        tenemos
+                        para ti. Te esperamos!</p>
+                    <div class="buttonarea">
+                        <a class="btn btn-transparent" href="#orador">Quiero ser orador</a>
+                        <a class="btn btn-solid" href="#tickets">Comprar tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                                             <!--Conoce a los Oradores-->
+                                    <!--Conoce a los Oradores-->
 
-    <div id="losOradores" class="text-oradores">
+    <div id="oradores" class="text-oradores">
       <p class="text-center">Conoce a los</p>
       <p class="text-center fs-1">ORADORES</p>
     </div>
-                                                       <!--cards-->
-      
+     
     <div class="container_cards align-center">
 
     <div class="card-group mb-lg-4 py-1" style="width: 48rem;">
@@ -105,29 +104,26 @@
     </div>
   </div>
 </div>
-    <main id="lugarYfecha">
-        <section id="honolulu">
-          <div class="container-fluid col"></div>
-              <div class="row">
-                <div class="col img-col" >
-                <img src="./img/honolulu.jpg" alt="Honolulu" class="img-fluid">
-              </div>
 
-              <div class="col my-0 bg-dark">
-                <h2>Bs As - Octubre</h2>
-                <p class="color text-white">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos, Honolulú es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulú se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulú han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de superficie)</p>
-                <div class="boton-conoce">
-                  <button type="button" class="btn btn-light btn-sm">Conocé más</button>
-                </div>
-              </div>
-            </div>  
-          </div>
-        </section>
-    </main>
+                             <!--Lugar y Fecha-->
+
+    <section class="call-to-action">
+      <div class="container-cta">
+        <img src="./img/honolulu.jpg" alt="Honolulu">
+        <div class="cta-content">
+          <h2>Bs As - Octubre</h2>
+            <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos.
+            Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600
+            km<sup>2</sup> de superficie.</p>
+            <a href="#" class="btn btn-transparent">Conocé más</a>
+        </div>
+      </div>
+    </section>
     
-                                                     <!--Formulario (conviertete en orador)-->
-  <div id="conviertEnOrador" class="container_form"> 
-    <div class="w-60 border m-1 p-1">
+                           <!--Formulario (conviertete en orador) (bootstrap)-->
+
+  <div id="orador" class="container_form">
+   <div class="w-60 border m-1 p-1">
     <div class="text-form">
       <p class="text-center">CONVIÉRTETE EN UN</p>
       <p class="text-center fs-3">ORADOR</p>
@@ -155,6 +151,8 @@
   </div>
   </div>
   
+                              <!--Footer (bootstrap)-->
+
       <nav class="py-md-2 navbar navbar-expand-md bg-secondary ">
         <div class="container">
             <div class="collaps navbar-collapse" id="btn">
@@ -184,6 +182,8 @@
             </div>
         </div>
       </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> 
+    <script src="js/tikets.js" type="text/javascript"></script>  
   </body>
 </html>
